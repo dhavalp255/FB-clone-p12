@@ -1,0 +1,48 @@
+.expanMore {
+  height: 420px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(151, 151, 151), -2px -2px 5px rgb(151, 151, 151);
+  padding-top: 10px;
+  padding-left: 20px;
+}
+hr {
+  font-size: 1px;
+  color: lightgray;
+}
+
+
+.expanMore .sidebarRow {
+  display: flex;
+  padding: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  width: 80%;
+}
+
+.expanMore .sidebarRow:hover {
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+.expanMore .sidebarRow > h4 {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+
+  color: black;
+}
+.expanMore .sidebarRow > span > .MuiSvgIcon-root {
+  font-size: large;
+  color: black;
+  background: rgb(190, 188, 188);
+  height: 23px;
+  width: 23px;
+  padding: 5px !important;
+  border-radius: 50%;
+  margin-top: 5px;
+}

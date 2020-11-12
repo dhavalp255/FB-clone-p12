@@ -1,0 +1,18 @@
+.messanger {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 45px;
+    right: -80px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(151, 151, 151), -2px -2px 5px rgb(151, 151, 151);
+    padding-top: 100px;
+    padding-left: 20px;
+    color: black;
+  }
+
+  .messanger > p {
+      font-size: 1rem;
+      margin-top: 30px;
+  }
